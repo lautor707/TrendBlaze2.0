@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendBlaze</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Esto es la primer barra del header -->
+
+        <section class="barra1 no-cambiar-color">
+            <p class="ba">Buscar tienda | Ayuda</p>
+
+            <button id="cambiarColorBtn" class="btn btn-white mt-2 btn-cambiar-color">
+                <img src="img/sol.png" alt="Cambiar Color de Fondo"></button>
+        </section>
+
+        <h1>TrendBlaze</h1>
+
+        <!-- Toda lo que esta adentro de la etiqueta section es el menu de seleccion y lo que esta justo abajo es el menu hamburguesa -->
+        <section class="menu">
+
+            <nav class="navbar navbar-expand-lg justify-content-center">
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                        aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Esto es el menu normal -->
+                    <nav class="collapse navbar-collapse" id="navbarS">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="productos.html" class="nav-link">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="ubicaciones.html" class="nav-link">Ubicaciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="destacado.html" class="nav-link">Destacado</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contacto.html" class="nav-link">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+
+        </section>
+
+        <main>
+
+            <!-- Esto es el primer banner -->
+            <section class="banner">
+                <figure>
+                    <img class="img1" src="img/Banner2.jpg" alt="banner">
+                    <figcaption class="texto">EQUIPATE PARA EL FRIO</figcaption>
+                    <button class="btn btn-dark mt-2">Comprar</button>
+                </figure>
+            </section>
+
+            <!-- Esto seria la tabla donde estan los productos de ejemplo -->
+            <section class="services section-padding">
+
+                <div class="container">
+                    <div class="row">
+
+                        <section class="col-12 col-md-12 col-lg-4">
+                            <figure class="item">
+                                <img class="prod" src="img/zapas1.JPG" alt="zapatillas 1" width="400px" height="400px">
+                                <figcaption class="nomZ">Nike Dunk Low LX</figcaption>
+                                <a href="#" class="btn btn-dark mt-2">Comprar</a>
+                            </figure>
+
+                        </section>
+
+                        <section class="col-12 col-md-12 col-lg-4">
+                            <figure class="item">
+                                <img class="prod" src="img/zapas2.JPG" alt="zapatillas 2" width="400px" height="400px">
+                                <figcaption class="nomZ">Nike Air Force 1</figcaption>
+                                <a href="#" class="btn btn-dark mt-2">Comprar</a>
+                            </figure>
+
+                        </section>
+                        <section class="col-12 col-md-12 col-lg-4">
+                            <figure class="item">
+                                <img class="prod" src="img/zapas3.JPG" alt="zapatillas 3" width="400px" height="400px">
+                                <figcaption class="nomZ">Nike Air Force 1 '07</figcaption>
+                                <a href="#" class="btn btn-dark mt-2">Comprar</a>
+                            </figure>
+
+                        </section>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Esto es el segundo banner -->
+            <section class="banner">
+                <figure>
+                    <img class="img1" src="img/Banner1.jpg" alt="banner">
+                    <figcaption class="texto">CAMINA CON ESTILO</figcaption>
+                    <button class="btn btn-dark mt-2">Comprar</button>
+                </figure>
+            </section>
+
+            <!-- Esto seria la segunda tabla donde estan los productos y los apartados de ropa para mujer, hombre y niños -->
+            <section class="services section-padding">
+
+                <div class="container">
+                    <div class="row">
+
+                        <section class="col-12 col-md-12 col-lg-4">
+                            <figure class="item">
+                                <img class="prod" src="img/mujer.JPG" alt="zapatillas 1" width="400px" height="550px">
+                                <figcaption class="nomZ">Ropa de Mujer</figcaption>
+                                <a href="#" class="btn btn-dark mt-2">Comprar</a>
+                            </figure>
+                        </section>
+
+                        <section class="col-12 col-md-12 col-lg-4">
+                            <figure class="item">
+                                <img class="prod" src="img/hombre.JPG" alt="zapatillas 2" width="400px" height="550px">
+                                <figcaption class="nomZ">Ropa de Hombre</figcaption>
+                                <a href="#" class="btn btn-dark mt-2">Comprar</a>
+                            </figure>
+                        </section>
+
+                        <section class="col-12 col-md-12 col-lg-4">
+                            <figure class="item">
+                                <img class="prod" src="img/niño.JPG" alt="zapatillas 3" width="400px" height="550px">
+                                <figcaption class="nomZ">Ropa de Niño</figcaption>
+                                <a href="#" class="btn btn-dark mt-2">Comprar</a>
+                            </figure>
+                        </section>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Esta es la seccion para suscribirte a la pagina y que te lleguen las notificaciones -->
+            <section class="contact-content">
+
+                <h2 class="no-cambiar-color">Subscribete para recibir noticias!</h2>
+
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div>
+                        <input type="email" name="correo" placeholder="Escribe tu correo" />
+                        <input type="submit" class="btn-3" value="Enviar" onclick="showConfirmationMessage()">
+                    </div>
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <!-- Esto es el footer donde estan los logos de las redes sociales que tiene la pagina -->
+            <section class="container">
+                <h3>Seguinos en nuestras redes sociales!</h3>
+
+                <figure class="logo">
+                    <img src="img/logo1.png" alt="logo de Instagram" width="60px" height="60px">
+                </figure>
+
+                <figure class="logo">
+                    <img src="img/logo2.png" alt="logo de Twitter" width="60px" height="60px">
+                </figure>
+
+                <figure class="logo">
+                    <img src="img/logo3.png" alt="logo de Facebook" width="60px" height="60px">
+                </figure>
+
+            </section>
+        </footer>
+
+        <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
